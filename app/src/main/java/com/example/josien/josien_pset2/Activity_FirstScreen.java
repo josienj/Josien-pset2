@@ -6,20 +6,19 @@ import android.os.Bundle;
 import android.view.View;
 
 
-public class introscreen extends AppCompatActivity {
+public class Activity_FirstScreen extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.introscreen);
+        setContentView(R.layout.activity_intro_screen);
     }
 
     public void startGame(View view) {
 
-        Intent secondScreen = new Intent(this, inputscreen.class);
+        Intent secondScreen = new Intent(this, Activity_ListView.class);
 
-        secondScreen.putExtra("input_screen", 1);
+        secondScreen.putExtra("choose_screen", 500);
         startActivity(secondScreen);
-
     }
 }

@@ -1,3 +1,18 @@
 <resources>
+    <string-array name="stories">
+        <item>Simple story</item>
+        <item>Tarzan story</item>
+        <item>University story</item>
+        <item>Clothes story</item>
+        <item>Dance story</item>
+    </string-array>
+
     <string name="app_name">Josien-pset2</string>
+    <string name="title_activity_input_screen">Input</string>
+    <string name="title_activity_story_screen">Story</string>
+
+    <string name="input_intro">Enter a word from the right category</string>
+    <string name="category">Category: </string>
+    <string name="words_left">Word(s) left: </string>
+    <string name="enter_word">Enter word</string>
 </resources>

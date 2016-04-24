@@ -8,7 +8,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:background="@color/white"
-    tools:context="com.example.josien.josien_pset2.introscreen">
+    tools:context=".Activity_FirstScreen">
 
     <ImageView
         android:layout_width="wrap_content"
@@ -41,17 +41,16 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Click below to get started!"
-        android:id="@id/textView3"
-        android:layout_above="@+id/button"
-        android:layout_centerHorizontal="true" />
+        android:text="Click below to get started and select the story you would like to play with!"
+        android:textAlignment="center"
+        android:layout_above="@+id/startbutton" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Get started!"
         android:onClick="startGame"
-        android:id="@+id/button"
+        android:id="@+id/startbutton"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="47dp" />
